@@ -19,8 +19,9 @@ credentials
 .env.*
 !.env.example
 
-# 편집기·OS
+# 편집기·OS·도구 로컬 설정
 .DS_Store
 ._*
 .idea/
 .vscode/
+.claude/settings.local.json
