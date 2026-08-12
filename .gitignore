@@ -9,7 +9,18 @@ crash.*.log
 override.tf
 override.tf.json
 
+# 자격증명 — 실습 중 생성되는 키·인증 정보는 절대 커밋 금지
+*.pem
+*.ppk
+*.key
+credentials
+.aws/
+.env
+.env.*
+!.env.example
+
 # 편집기·OS
 .DS_Store
+._*
 .idea/
 .vscode/
