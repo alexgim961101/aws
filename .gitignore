@@ -1,0 +1,15 @@
+# Terraform — state와 변수 파일에는 비밀·인프라 정보가 포함될 수 있어 커밋 금지
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+
+# 편집기·OS
+.DS_Store
+.idea/
+.vscode/
